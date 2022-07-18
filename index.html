@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNERVE</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b7d6e9d153.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-dark fixed-top" id="navbarId">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="static\img\unnamed.jpg" class="d-inline-block align-top" height="110px" alt="ESYA'19" height="300px " width="150px">
+            </a>
+            <div class="d-none d-lg-block ml-auto mr-3" id="navbarNav">
+                <a class="btn btn-outline-light btn-sm px-3 badge-pill no-btn-shadow light stretch" data-tilt data-tilt-scale="1.05" href="/register/">REGISTER</a>
+            </div>
+            <button  data-tilt data-tilt-scale="2.1" onclick="openSideNav()">
+                
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="side-nav container d-flex flex-column" style="z-index: 999; overflow-x: hidden; overflow-y: auto" id="sideNav">
+            <div class="row mt-3 w-100">
+                <div class="col text-right">
+                    <button class= data-tilt data-tilt-scale="1.1" onclick="closeSideNav()">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row w-100">
+                <div class="col pl-3 pl-lg-5">
+                    <ul class="list-group list-group-flush pt-3">
+                        <li class="list-group-item bg-transparent border-0"><a href="/" class="side-nav-links stretch light">HOME</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/events/" class="side-nav-links stretch light">EVENT DETAILS</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/register/" class="side-nav-links stretch light" data-toggle="tooltip" title="Registrations Open!" data-placement="right" >REGISTER</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/blogs/" class="side-nav-links stretch light">BLOGS</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/sponsors/" class="side-nav-links stretch light">SPONSORS</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/schedule/" class="side-nav-links stretch light">SCHEDULE</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a href="/team/" class="side-nav-links stretch light">TEAM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-auto w-100">
+                <div class="col pb-4 pl-3 pl-lg-5">
+                    <li class="list-group-item bg-transparent d-flex border-0">
+                        <a href="https://www.facebook.com/EsyaIIITD" target="_blank"><img data-tilt data-tilt-scale="1.1" src="/static/img/facebook.svg" class="mr-0 pr-1" width="35px" alt=""></a>
+                        <a href="https://www.instagram.com/innerveigdtuw/" target="_blank"><img data-tilt data-tilt-scale="1.1" src="/static/img/instagram.svg" class="pl-1" width="35px" alt=""></a>
+                        <!-- <a class="btn btn-outline-light btn-sm px-3 badge-pill no-btn-shadow light stretch ml-auto" data-tilt data-tilt-scale="1.05" href="/faqs">FAQs</a>                             -->
+                        <a class="btn btn-outline-light btn-sm px-3 badge-pill light stretch ml-auto" data-tilt data-tilt-scale="1.05" data-toggle="modal" data-target=".sub-modal-lg" href="#">SUBSCRIBE</a>                            
+                    </li>                        
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="particles-js"></div>
+<div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; overflow: hidden">
+    <img src="/static/img/giphy.gif" class="d-none d-lg-block" style="opacity: 0.2; position: absolute; right: -400px; bottom: -400px; transform: rotate(-90deg)" width="800px" alt="">
+    <img src="/static/img/giphy.gif" style="opacity: 0.2; position: absolute; left: 0px; top: 100px; transform: rotate(90deg)" alt="">
+    <div class="container h-100">
+        <div class="row h-100 d-flex align-items-center">
+            <div class="col text-white">
+                <div class="col border-left py-4">
+                    <h1 class="light stretch display-3" style="margin: 0 0 -15px -6px;">INNERVE'22</h1>
+                    <h1 class="bold stretch d-none d-md-block display-3" style="margin-bottom: -5px"></h1>
+                    
+                    <BR>
+                    <h4 class="light stretch ml-1">THE ANNUAL TECHFEST OF IGDTUW</h4>
+                    <h5 class="light stretch mt-4">13<sup>rd</sup>-14<sup>th</sup>November 2022</h5>
+                    <!-- <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register" data-toggle="modal" data-target=".sub-modal-lg" onclick="return false;">SUBSCRIBE NOW</a>                     -->
+                    <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register">REGISTER NOW</a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <span style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%)"><img src="/static/img/down-arrow.svg" width="30px" style="transform: rotate(90deg)" alt=""></span>
+</div>
+<div style="position: absolute; top: 100vh; width: 100%" id="aboutus">
+    
+    <div class="container mt-5 mb-0 mb-md-5">
+        <h1 class="bold mb-0 text-black pt-0 pt-md-5">ABOUT US</h1>     
+        <div class="row mt-5 justify-content-center pb-0 pb-md-5" style="overflow-x: hidden">
+            <div class="col-12 col-lg-4 p-4 py-5 bg-black order-2 order-lg-1" id="aboutLeftCard" style="z-index: 9;">
+                <h2 class="bold stretch mb-1">INNERVE'22</h2>                
+               
+                <p class="light  small">Innerve is the annual technical fest of Indira Gandhi Delhi Technical University for Women (IGDTUW), catering to the interests of numerous students across all fields. Experiencing a footfall of over 9000 students from all over the country every year, Innerve is a platform where technical acumen blends with creativity and innovation.</p>              
+                <p class="light small">This two day technical fest of IGDTUW, Delhi showcases a plethora of events ranging from coding competitions to overnight hackathons, from powerful debates to robots at war. The new edition of INNERVE is bigger, bolder and better than ever before. Come join us in our pursuit of infinity and beyond.</p>              
+            </div>
+            <div class="col-12 col-lg-6 px-0 d-flex align-items-center text-black order-1 order-lg-2" id="aboutRightCard" style="position: relative;" data-toggle="modal" data-target=".video-modal-lg">
+                <img src="" style="cursor: pointer" width="100%" class="imageForVideo" alt=" a video or slideshow of images to show glimpses of last year">
+                <span class="video-side-text light stretch">INNERVE'21 RECAP</span>
+            </div>
+        </div>
+    </div>    
+    <div class="bg-black py-5" id="footerId">
+    <div class="container light">
+        <div class="row">
+            <div class="col-12 col-lg-4 d-flex flex-column">
+                <p class="mb-1 text-white h5 stretch"><b>FOLLOW US</b></p>   
+                <div class="col flex-1 px-0">  
+                    <ul class="p-0 d-flex align-items-end flex-column h-100 mb-0" style="list-style: none;">
+                        <li class="w-100"> Facebook<img src="/static/img/link-arrow.svg" class="ml-2" width="20px" alt=""></a></li>
+                        <li class="w-100"><a href="https://www.instagram.com/esya_iiitd/" target="_blank" class="no-decoration small text-white">Instagram<img src="/static/img/link-arrow.svg" class="ml-2" width="20px" alt=""></a></li>
+                        <li class="w-100 mt-auto d-none d-lg-block"><a href="/privacy-policy" class="no-decoration small text-white">Privacy Policy</a></li>
+                    </ul>          
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 mt-4 mt-lg-0">
+                <p class="mb-1 text-white h5 stretch"><b>SITEMAP</b></p>
+               <div class="row">
+                    <div class="col-6">
+                        <ul class="p-0 mb-0" style="list-style: none;">
+                            <li><a href="/" class="no-decoration small text-white">Home</a></li>
+                            <li><a href="/register/" class="no-decoration small text-white">Register</a></li>
+                            <li><a href="/events/" class="no-decoration small text-white">Event Details</a></li>
+                            <li><a href="/blogs/" class="no-decoration small text-white">Blogs</a></li>
+                            <li><a href="/#aboutus" class="no-decoration small text-white">About Us</a></li>
+                            <li><a href="/#statistics" class="no-decoration small text-white">Statistics</a></li>
+                            <li><a href="/sponsors" class="no-decoration small text-white">Sponsors</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="p-0 mb-0 d-flex flex-column align-items-end h-100" style="list-style: none;">
+                            <li class="w-100"><a href="/schedule/" class="no-decoration small text-white">Schedule</a></li>
+                            <li class="w-100"><a href="/workshops/" class="no-decoration small text-white">Workshops</a></li>
+                            <li class="w-100"><a href="/talks/" class="no-decoration small text-white">Talks</a></li>
+                            <li class="w-100"><a href="/faqs/" class="no-decoration small text-white " >FAQs</a></li>
+                            <li class="w-100"><a href="/team/" class="no-decoration small text-white">Team</a></li>
+                            <li class="w-100 mt-auto d-block d-lg-none"><a href="/privacy-policy" class="no-decoration small text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+          <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
